@@ -1,6 +1,6 @@
-* {
+/* * {
   background-color: rgba(0, 40, 0, 0.1);
-}
+} */
 
 body {
   margin: 0;
@@ -9,6 +9,7 @@ body {
   width: 100vw;
   display: grid;
   grid-template-rows: 4fr 20fr 3fr;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* nav styling */
@@ -43,6 +44,32 @@ nav {
 .container {
   min-width: 85%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr 6fr;
+  grid-template-rows: 2fr 6fr;
+}
+
+#portfolio-heading {
+  grid-row: 1;
+  grid-column: 1 / span 4;
+  /* text-align: center; */
+  justify-self: center;
+  align-self: end;
+}
+
+.projects {
+  grid-row: 2;
+  grid-column: 1 / span 4;
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr 6fr;
+}
+
+.project-one {
+  grid-column: 1;
+}
+
+.project-two {
+  grid-column: 2 / span 2;
 }
 
 /* footer styling */
