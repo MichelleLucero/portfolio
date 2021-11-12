@@ -1,6 +1,6 @@
 * {
   background-color: rgba(0, 40, 0, 0.1);
-  /* border: 0.05px solid black; */
+  border: 0.005px solid black;
 }
 
 body {
@@ -15,8 +15,6 @@ body {
 .container {
   max-width: 86%;
   margin: 0 auto;
-  /* background: pink; */
-  /* padding: 10%; */
 }
 
 /* navbar styling */
@@ -68,6 +66,7 @@ hr {
 .samples-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* padding: 45% 0px; */
 }
 
 .project-one {
@@ -94,6 +93,11 @@ hr {
 
 .links {
   justify-content: flex-end;
+}
+
+/* footer styling */
+.footer-content {
+  padding: 6% 0px;
 }
 /* nav styling
 nav {
