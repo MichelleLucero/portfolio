@@ -81,6 +81,20 @@ hr {
 .project-three {
   grid-column: 3;
 }
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  justify-content: flex-start;
+}
+
+.links {
+  justify-content: flex-end;
+}
 /* nav styling
 nav {
   grid-row: 1;
