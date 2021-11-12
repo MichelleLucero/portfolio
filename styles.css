@@ -64,6 +64,23 @@ hr {
 .title {
   text-align: center;
 }
+
+.samples-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-one {
+  grid-column: 1;
+}
+
+.project-two {
+  grid-column: 2;
+}
+
+.project-three {
+  grid-column: 3;
+}
 /* nav styling
 nav {
   grid-row: 1;
