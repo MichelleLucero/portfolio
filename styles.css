@@ -76,11 +76,14 @@ hr {
 .project-two {
   grid-column: 2;
 }
-
+.center-text {
+  text-align: center;
+}
 .project-three {
   grid-column: 3;
 }
 
+/* footer styling */
 .footer-content {
   display: flex;
   align-items: center;
@@ -95,7 +98,6 @@ hr {
   justify-content: flex-end;
 }
 
-/* footer styling */
 .footer-content {
   padding: 6% 0px;
 }
