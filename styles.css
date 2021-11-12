@@ -1,6 +1,6 @@
 * {
-  background-color: rgba(0, 40, 0, 0.1);
-  border: 0.005px solid black;
+  /* background-color: rgba(0, 40, 0, 0.1); */
+  /* border: 0.005px solid black; */
 }
 
 body {
@@ -66,6 +66,7 @@ hr {
 .samples-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
   /* padding: 45% 0px; */
 }
 
@@ -77,10 +78,19 @@ hr {
   grid-column: 2;
 }
 
+.project-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.center-text {
+  text-align: center;
+}
 .project-three {
   grid-column: 3;
 }
 
+/* footer styling */
 .footer-content {
   display: flex;
   align-items: center;
@@ -95,7 +105,6 @@ hr {
   justify-content: flex-end;
 }
 
-/* footer styling */
 .footer-content {
   padding: 6% 0px;
 }
